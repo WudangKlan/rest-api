@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/eslint-parser": "^7.19.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
@@ -30,5 +31,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "eslint": "^8.33.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-react": "^7.32.2"
   }
 }
